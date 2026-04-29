@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Project - Page 4</title>
+    <py-config>
+        packages = ['numpy', 'matplotlib']
+    </py-config>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-nav">
+        <div class="container">
+            <span class="navbar-brand">Grade 10</span>
+            <div class="ms-auto">
+                <a href="index.html" class="nav-link d-inline">Home</a>
+                <a href="index (2).html" class="nav-link d-inline">Classmates</a>
+                <a href="index (3).html" class="nav-link d-inline">Attendance Tracker</a>
+                <a href="index (4).html" class="nav-link d-inline">Gallery</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="result text-center">
+        <h2>Gallery</h2>
+        <div class="row align-items-start gallery-grid p-3">
+            <div class="col-md-3 col-sm-12 left-small-col text-start">
+                <div>
+                    <img src="10_cat_grad.jpeg" alt="CAT 10 Grad" class="img-fluid small-left-img">
+                    <p class="caption">CAT Grad</p>
+                </div>
+                
+                <div class="mt-4">
+                    <img src="jamesgang1.jpg" alt="The Group" class="img-fluid small-left-img">
+                    <p class="caption">The group 😁😁</p>
+                </div>
+
+                <div class="mt-4">
+                    <img src="jamesgang2.jpeg" alt="Placeholder" class="img-fluid small-left-img">
+                    <p class="caption">The group pt. 2 😃</p>
+                </div>
+            </div>
+            <!-- Right Column: Main photo + Christmas photo below -->
+            <div class="col-md-9 col-sm-12 right-main-col">
+                <div class="mb-4">
+                    <img src="10e_pic_taking.jpeg" alt="Class Photo" class="main-image">
+                    <p class="caption">10-E 2025-2026.</p>
+                </div>
+
+                <!-- Nested row for the bottom box -->
+                <div class="row">
+                    <!-- Changed from col-md-6 to col-md-12 to fill the width -->
+                    <div class="col-md-12 mb-3">
+                        <img src="10e_christmas_party.PNG" alt="Christmas Party" class="img-fluid small-left-img">
+                        <p class="caption">Christmas Party</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <py-script src="main.py"></py-script>
+
+    <footer class="footer text-center">
+        <p>Ivan David, James Mamauag.</p>
+    </footer>
+</body>
+</html>
